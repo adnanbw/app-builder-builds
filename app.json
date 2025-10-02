@@ -20,6 +20,7 @@
     },
     "android": {
       "package": "com.appbuilder.template",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
