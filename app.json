@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "App Builder Template",
-    "slug": "app-builder-template",
+    "name": "App Builder Builds",
+    "slug": "app-builder-builds",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
