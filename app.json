@@ -33,6 +33,9 @@
         "projectId": "07374dba-2296-451e-b1c3-10fc1dc24aba"
       }
     },
-    "owner": "adnanbw"
+    "owner": "adnanbw",
+    "plugins": [
+      "expo-build-properties"
+    ]
   }
 }
