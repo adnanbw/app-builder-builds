@@ -1,5 +1,3 @@
-
-
 {
   "cli": {
     "version": ">= 5.2.0",
@@ -7,13 +5,20 @@
   },
   "build": {
     "production": {
+      "autoIncrement": true,
       "android": {
-        "gradleVersion": "8.0.2"
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "ios": {
+        "buildConfiguration": "Release"
       }
     },
     "development": {
+      "developmentClient": true,
+      "distribution": "internal",
       "android": {
-        "gradleVersion": "8.0.2"
+        "buildType": "apk"
       }
     }
   }
