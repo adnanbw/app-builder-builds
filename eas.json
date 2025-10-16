@@ -8,8 +8,7 @@
       "autoIncrement": true,
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease",
-        "gradleVersion": "8.0.2"
+        "gradleCommand": ":app:assembleRelease"
       },
       "ios": {
         "buildConfiguration": "Release"
@@ -19,8 +18,7 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "gradleVersion": "8.0.2"
+        "buildType": "apk"
       }
     }
   }
